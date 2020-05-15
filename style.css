@@ -1,8 +1,12 @@
 .col-md-12
 {
-    height:150px;
+    height:135px;    
+}
+#top
+{
+    position:fixed;
+    z-index:1;
 
-    
 }
 .head1
 {
@@ -10,6 +14,19 @@
     margin-top: 5px;
     font-size: 50px;
 }
+#head3
+{
+    text-align: center; 
+    color:rgb(36, 36, 144);
+    font-size: 45px;
+}
+#head2
+{
+    text-align: center; 
+    color:rgb(36, 36, 144);
+    font-size: 45px;
+}
+
 #but1
 {
      background-color:rgb(36, 36, 144);
@@ -52,6 +69,11 @@
     margin-left:-35px;
 
 }
+#u
+{
+    margin-top:140px;
+}
+
 .navbar
 {
    position:relative;
@@ -77,8 +99,40 @@
 position: relative;
 top:400px;
 }
+#car
+{
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    color:rgb(83, 80, 80);
+}
+.dropdown-menu >.dropdown-item:hover
+{
+background-color: rgb(36, 36, 144);
+color:white;
+}
+.nav-item >.nav-link
+{
+    background-color: rgb(36, 36, 144);
+    border-radius: 20px;
+    
+}
+.navbar-txt
+{
+    color:white;
+}
+
 @media only screen and (max-width: 768px)
 {
+    #car
+{
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    color:rgb(83, 80, 80);
+}
     .d-block{
         height:200px;
     }
@@ -98,4 +152,32 @@ top:100px;
 {
     margin-top:20px;
 }
+.nav-item >.nav-link
+{
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    
+}
+.navbar-txt
+{
+    color:black;
+}
+}
+
+@media only screen and (max-width: 411px)
+{
+    .head1
+    {
+        font-size: 16px;
+    }
+   
+    #head3
+    {
+      font-size: 23px;
+    }
+    #head2
+    {
+        font-size: 20px;
+    }
+
 }
