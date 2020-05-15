@@ -1,0 +1,101 @@
+.col-md-12
+{
+    height:150px;
+
+    
+}
+.head1
+{
+    color:rgb(36, 36, 144);;
+    margin-top: 5px;
+    font-size: 50px;
+}
+#but1
+{
+     background-color:rgb(36, 36, 144);
+     color:white;
+}
+*
+{
+    font-family:"Merriweather";
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+.img1
+{
+    border-radius: 50%;
+    position:relative;
+    top:-40px;
+    margin-left:-35px;
+
+}
+.navbar
+{
+   position:relative;
+   top:-130px;
+   left:40px;
+   margin-left:50px;
+   z-index:1;
+}
+.nav-link
+{
+    font-size:22px;
+}
+.navbar-toggler
+{
+    border-color: lightgreen;
+}
+.d-block
+{
+    height:500px;
+}
+#first
+{
+position: relative;
+top:400px;
+}
+@media only screen and (max-width: 768px)
+{
+    .d-block{
+        height:200px;
+    }
+    .navbar
+    {
+        border-radius:10%;
+    }
+    .head1{
+        font-size:35px;
+    }
+    #first
+{
+position: relative;
+top:100px;
+}
+#second
+{
+    margin-top:20px;
+}
+}
