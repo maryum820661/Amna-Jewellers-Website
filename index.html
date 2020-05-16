@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link mx-1" href="#"><span class="navbar-txt">Home</span><span class="sr-only">(current)</span></a>
+                  <a class="nav-link mx-1" href=""><span class="navbar-txt">Home</span><span class="sr-only">(current)</span></a>
                 </li> 
                
                 <li class="nav-item">
@@ -45,7 +45,7 @@
                   </div>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="#"><span class="navbar-txt">Contact Us</span></a>
+                  <a class="nav-link" href="contactus.html"><span class="navbar-txt">Contact Us</span></a>
                 </li>
                
               </ul>
@@ -242,30 +242,7 @@
 
 </div>
   <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+  <script src="app.js"></script>
 </body>
 
 </html>
-<script>
-
-
-mybutton = document.getElementById("myBtn");
-
-/*Scroll to top when arrow up clicked BEGIN*/
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
-
-});
- /*Scroll to top when arrow up clicked END*/
-</script>
