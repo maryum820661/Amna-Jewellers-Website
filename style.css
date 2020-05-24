@@ -20,7 +20,7 @@
     color:rgb(36, 36, 144);
     font-size: 45px;
 }
-#head2
+#head2,#head4,#head5,#head6
 {
     text-align: center; 
     color:rgb(36, 36, 144);
@@ -142,20 +142,26 @@ color:white;
     padding:10px;
     color:white;
 }
+.m{
+margin-left: 112px;
+}
 @media only screen and (max-width: 768px)
 {
+    .m{
+        margin-left:0px;
+    }
     .mapouter
 {
 position:relative;
 text-align:right;
 height:300px;
-width:100px;
+width:100%;
 }
 .gmap_canvas {
 overflow:hidden;
 background:none!important;
 height:300px;
-width:100x;
+width:100%;
 }
 
     #car
